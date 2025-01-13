@@ -19,6 +19,9 @@ class PmergeMe {
 		void    mergeSortDeque(std::deque<int>& arr, int left, int right);
 		void    mergeDeque(std::deque<int>& arr, int left, int mid, int right);
 		void    insertionSortDeque(std::deque<int>& arr, int left, int right);
+
+    	void 	sortContainer(std::vector<int>& container, int left, int right);
+    	void 	sortContainer(std::deque<int>& container, int left, int right);
 		
 		template<typename Container>
 		double  sortAndMeasureTime(Container& container);
